@@ -8,7 +8,20 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController{
+    
+   /* let tableViewCellTitles = ["General AI", "Narrow AI", "Outlooks on AI", "Opinions"]
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 5
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = UITableViewCell()
+        cell.textLabel?.text = "a string"
+        return cell
+    } */
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
